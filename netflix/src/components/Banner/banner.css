@@ -1,5 +1,5 @@
 .banner{
-  margin-top: -10hv;
+  margin-top: -10vh;
   height: 80vh;
   margin-bottom: -80px;
   color: white;
@@ -58,41 +58,13 @@
   );
 }
 
-
-/* Banner Responsive Styles */
-@media (max-width: 768px) {
-  .banner {
-    height: 60vh;
-  }
-
-  .banner_contents {
-    padding-top: 100px;
-    bottom: 15%;
-  }
-
-  .banner_title {
-    font-size: 2rem;
-  }
-
-  .banner_description {
-    width: 100%;
-    font-size: 0.9rem;
-  }
-
-  .banner_button {
-    padding: 0.7rem 2rem;
-    font-size: 1rem;
-  }
-}
-
 @media (max-width: 480px) {
   .banner {
-    height: 50vh;
+    height: 40vh;
   }
 
   .banner_contents {
-    padding-top: 50px;
-    bottom: 5%;
+    padding-top: 80px;
   }
 
   .banner_title {
@@ -101,11 +73,41 @@
 
   .banner_description {
     font-size: 0.8rem;
-    max-width: 90%;
+    width: 100%;
   }
 
   .banner_button {
     padding: 0.5rem 1.5rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
+  .banner {
+    background-size: cover;
+    background-position: center;
+  }
+  
 }
+
+@media (max-width: 768px) {
+  .banner_fadeBottom {
+    height: 35vh;
+  }
+
+  
+
+
+}
+
+@media (max-width: 480px) {
+  .banner_fadeBottom {
+    height: 10vh;
+  }
+  .banner_button:hover {
+  color: #000;
+  background-color: #c6c6c6;
+  transition: 0.2s ease;
+}
+
+}
+
+
+
