@@ -58,7 +58,7 @@
   );
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
   .banner {
     height: 40vh;
   }
@@ -88,7 +88,7 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
   .banner_fadeBottom {
     height: 10vh;
   }

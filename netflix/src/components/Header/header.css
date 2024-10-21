@@ -87,7 +87,7 @@
   }
 }*/
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
   .header_left ul.desktop_menu {
     display: none; 
   }
