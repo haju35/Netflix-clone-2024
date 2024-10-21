@@ -8,7 +8,7 @@
   height: 10vh; 
   color: white;
   transition: all 0.5s ease-in; 
-  z-index: 1; 
+  z-index: 100;
 }
 
 .nav_black {
@@ -103,6 +103,7 @@
     position: absolute;
     top: 60px; 
     left: 0; 
+    z-index: 100; 
   }
 
   .hamburger-menu {
@@ -119,7 +120,7 @@
   .header_logo {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%); /* Center the logo horizontally */
+    transform: translateX(-50%); 
     display: flex;
     justify-content: center;
     align-items: center;
