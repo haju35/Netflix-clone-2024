@@ -58,7 +58,7 @@
   );
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width:576px) {
   .banner {
     height: 40vh;
   }
@@ -97,7 +97,7 @@
 
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width:576px) {
   .banner_fadeBottom {
     height: 10vh;
   }
