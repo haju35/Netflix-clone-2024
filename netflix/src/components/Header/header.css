@@ -67,7 +67,7 @@
 }
 
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .header_container {
     width: 100%; 
   }
@@ -85,9 +85,9 @@
   .hamburger-menu {
     display: none; 
   }
-}
+}*/
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
   .header_left ul.desktop_menu {
     display: none; 
   }
