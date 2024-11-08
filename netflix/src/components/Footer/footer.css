@@ -8,7 +8,6 @@
 
 .footer_inner_container{
   width:60%;
-  /*background-color:red;*/
 }
 
 .footer_icons{
@@ -36,6 +35,7 @@
 
 .footer_data ul li{
   cursor: pointer;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .service_code{
@@ -53,49 +53,6 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width:992px) {
-  .footer_icons {
-    width: 50%;
-    justify-content: space-around;
-  }
-
-  .footer_data {
-    text-align: center;
-    flex-direction: column;
-  }
-
-  .footer_data ul {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .service_code {
-    width: 80%;
-  }
-
-  .copy-write {
-    font-size: 10px;
-  }
-
-  .footer_icons {
-    width: auto; 
-    padding: 0 20px;
-  }
-  
-  .service_code {
-    width: 20%;
-    align-self: center;
-  }
-  .footer_outer_container {
-    padding: 10px 0;
-  }
-
-  .footer_data ul li {
-    margin-bottom: 5px;
-  }
-  
-}
 
 
 
